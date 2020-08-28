@@ -1,13 +1,11 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import MySite from './containers/MySite'
 
-function App() {
+
+export default function App() {
   return (
-    <div className="App">
-      hey
+    <div>
+      <MySite />
     </div>
-  );
+  )
 }
-
-export default App;

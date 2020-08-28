@@ -1,0 +1,23 @@
+.Nav{
+    color: white;
+}
+
+.Logo{
+    display: inline;
+    margin: 0 6px;
+}
+
+.Nav h3{
+    display: inline;
+    margin: 0 6px;
+}
+
+.Nav ul{
+    display: inline;
+    list-style-type: none;
+    float: right;
+}
+.Nav li{
+    display: inline;
+    margin: 0 6px;
+}

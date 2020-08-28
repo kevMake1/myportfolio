@@ -1,0 +1,9 @@
+.Bio{
+    
+}
+
+.Bio h2, p{
+    text-align: center;
+    /* margin: 10px auto; */
+    width: 40%;
+}

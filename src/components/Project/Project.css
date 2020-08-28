@@ -1,0 +1,16 @@
+.Project{
+    display: inline-block;
+    margin: 10px;
+}
+
+.Project img{
+    display: inline-block;
+    width: 400px;
+    border-radius: 20px;
+    /* box-shadow: 4px 4px rgb(231, 231, 231); */
+    transition: all 0.5s;
+}
+.Project img:hover{
+    border-radius: 0;
+    opacity: 2;
+}

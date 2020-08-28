@@ -1,0 +1,72 @@
+.Header {
+    background-image: url('../../assets/imgs/main.jpg');
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+@keyframes animate{
+  0%{transform: translate(-150%, 0); opacity: 0;}
+  80%{transform: translate(10%, 0); opacity: 0.8;}
+  100%{transform: translate(0, 0); opacity: 1;}
+}
+
+.Header img{
+    margin-top: 26vh;
+    width: 800px;
+    animation: animate 1s ease-in-out;
+}
+
+@media only screen and (max-width: 1910px) {
+  .Header img{
+    width: 700px;
+  }
+}
+
+@media only screen and (max-width: 1730px) {
+  .Header img{
+    width: 600px;
+  }
+}
+
+@media only screen and (max-width: 1478px) {
+  .Header img{
+    width: 500px;
+  }
+}
+
+@media only screen and (max-width: 1198px) {
+  .Header img{
+    content:url("../../assets/imgs/myName-mobile.png");
+    width: 600px;
+    margin: 0 auto;
+  }
+
+  .mobile{
+    display: flex;
+    width: 100vw;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media only screen and (max-width: 636px) {
+  .Header img{
+    width: 500px;
+  }
+
+}
+
+@media only screen and (max-width: 636px) {
+  .Header img{
+    width: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+}
