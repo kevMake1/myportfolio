@@ -1,4 +1,16 @@
 .Bio{
-    
+    margin: 10rem 0;
 }
 
+.about-me{
+    text-align: center;
+}
+
+.Bio .about-me-content{
+    margin: 0 auto;
+}
+
+.about-me-content{
+    text-align: center;
+    width: 60%;
+}
