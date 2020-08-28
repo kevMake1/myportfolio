@@ -4,7 +4,7 @@ import './Bio.css'
 
 export default function Bio() {
     return (
-        <div className='Bio'>
+        <div id='Bio' className='Bio'>
             <h2 className='about-me'>About Me</h2>
             <p className='about-me-content'>
                 Lorem Ipsum is simply dummy text of the printing and 

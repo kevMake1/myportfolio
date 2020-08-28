@@ -6,7 +6,7 @@ import { findByLabelText } from '@testing-library/react'
 
 export default function Projects() {
     return (
-        <div style={{ padding: 10 }}>
+        <div id="projects" style={{ padding: 10 }}>
             <h2 style={{ textAlign: 'center' }}>My Projects</h2>
             <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center' }}>
 

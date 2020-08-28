@@ -5,11 +5,10 @@ import './Nav.css'
 export default function Nav() {
     return (
         <nav className='Nav'>
-            <div className='Logo'>Logo</div>
+            {/* <div className='Logo'>Logo</div> */}
             <ul>
-                <li>Home</li>
-                <li>Second</li>
-                <li>Third</li>
+                <a href="#Bio"><li>About Me</li></a>
+                <a href="#projects"><li>My Projects</li></a>
             </ul>
         </nav>        
     )
