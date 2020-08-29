@@ -22,6 +22,7 @@ export default function Projects() {
                         link={proj.linkToProj}
                         demoPath={proj.demoPath}
                         gitHub={proj.gitHubLink}
+                        buttonAdditionalInfo={proj.buttonAdditionalInfo}
                     />
                 })}
             </div>

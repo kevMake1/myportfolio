@@ -26,10 +26,25 @@ const projects = [
         demoPath: require("../assets/videos/DTRDemo.MP4"),
         buttonContent: "Play Demo",
         gitHubLink: "https://github.com/kevMake1/DTRpdfExporter"
+
     },
     {
         ID: "3",
         imgPath: require("../assets/imgs/proj3.png"),
+        title: "Quick Note IOS Application (Soon to be Released)",
+        description: "IOS application which allows users to take a quick note. By allowing the user to take a note in two steps " + 
+                    "improves the user's experience.",
+        techUsed: ["Swift, ", "Xcode, ", "Realm"],
+        hasLink: false,
+        linkToProj: "#",
+        demoPath: require("../assets/videos/quickNoteDemo.mp4"),
+        buttonContent: "Play Demo",
+        gitHubLink: "",
+        buttonAdditionalInfo: " (Private)"
+    },
+    {
+        ID: "4",
+        imgPath: require("../assets/imgs/proj4.png"),
         title: "My Portfolio",
         description: "My portfolio",
         techUsed: ["ReactJS, ", "HTML, ", "CSS, ", "ReactBootStrap"],
@@ -37,7 +52,7 @@ const projects = [
         linkToProj: "",
         demoPath: "",
         buttonContent: "Go to site",
-        gitHubLink: "#"
+        gitHubLink: "https://github.com/kevMake1/myportfolio"
     }
 
 ]

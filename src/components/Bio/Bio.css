@@ -14,3 +14,10 @@
     text-align: center;
     width: 60%;
 }
+
+#github{
+    color: gray;
+}
+#github:hover{
+    color: black;
+}

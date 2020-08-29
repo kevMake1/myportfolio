@@ -48,3 +48,14 @@
     visibility: visible;
     transform: scaleX(1);
 }
+
+@keyframes animate{
+    0%{transform: translate(0, -150%); opacity: 0;}
+    80%{transform: translate(0, 10%); opacity: 0.8;}
+    100%{transform: translate(0, 0); opacity: 1;}
+  }
+.Nav ul{
+    animation: animate 1s ease-in-out;
+}
+
+  
