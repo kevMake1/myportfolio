@@ -22,10 +22,10 @@ const projects = [
                     + "this data.",
         techUsed: ["C# (.NET), ", "XML, ", "PDFSharp, ", "SQLite, ", "Visual Studio"],
         hasLink: false,
-        linkToProj: "http://praisetempleapostolic.org/",
+        linkToProj: "#",
         demoPath: require("../assets/videos/DTRDemo.MP4"),
         buttonContent: "Play Demo",
-        gitHubLink: "#"
+        gitHubLink: "https://github.com/kevMake1/DTRpdfExporter"
     },
     {
         ID: "3",

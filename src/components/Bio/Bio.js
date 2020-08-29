@@ -7,12 +7,11 @@ export default function Bio() {
         <div id='Bio' className='Bio'>
             <h2 className='about-me'>About Me</h2>
             <p className='about-me-content'>
-                Lorem Ipsum is simply dummy text of the printing and 
-                typesetting industry. Lorem Ipsum has been the industry's 
-                standard dummy text ever since the 1500s, when an unknown printer 
-                took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into 
-                electronic typesetting, remaining essentially unchanged.
+                I'm a software engineer specializing in building responsive websites, and applications.
+                I am passionate about implementing ideas into reality. As a developer I enjoy taking on challenges, 
+                solving problems, using my obsessive attention to detail, and my mission-driven 
+                work ethic to have an impact on everyone around me whether it's from customers or small businesses 
+                to large companies. 
             </p>
         </div>
     )
