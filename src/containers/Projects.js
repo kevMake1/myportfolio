@@ -18,7 +18,9 @@ export default function Projects() {
                         description={proj.description}
                         techUsed={proj.techUsed}
                         buttonContent={proj.buttonContent}
+                        hasLink={proj.hasLink}
                         link={proj.linkToProj}
+                        demoPath={proj.demoPath}
                         gitHub={proj.gitHubLink}
                     />
                 })}

@@ -1,12 +1,16 @@
-import React from 'react'
-import { Card, Button } from 'react-bootstrap';
+import React, { useState } from 'react'
+import { Card, Button, Modal } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
 import './Project.css'
 
 export default function Project(props) {
 
-    const test = ["HTML, ", "CSS, ", "JavaScript, " , "BootStrap, ", "MongoDB"]
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
     return (
         <div className='Project'>
             <Card style={{ width: '20rem' }}>
@@ -18,14 +22,24 @@ export default function Project(props) {
                             {props.description}
                         </p>
                         <p>
-                            Technologies used:<br></br> {props.techUsed.map(t => t )}
+                            Technologies used:<br></br> {props.techUsed.map(t => t)}
                         </p>
 
                     </Card.Text>
-                    <a href={props.link} target="_blank"><Button variant="primary">{props.buttonContent}</Button></a>
+
+                    {props.hasLink ? 
+                        <a style={{ marginRight: 10 }} href={props.link} target="_blank"><Button variant="primary">{props.buttonContent}</Button></a>
+                        :
+                        <Button style={{ marginRight: 10 }} onClick={handleShow}>{props.buttonContent}</Button>
+                    }
+
                     <a href={props.gitHub} target="_blank"><Button variant="secondary">GitHub</Button></a>
                 </Card.Body>
             </Card>
+
+            <Modal size='xl' show={show} onHide={handleClose}>
+                <iframe height="800px" src={props.demoPath} title="DTR Software Demo"></iframe>
+            </Modal>
         </div>
     )
 }
