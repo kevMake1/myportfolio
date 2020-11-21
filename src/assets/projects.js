@@ -31,14 +31,14 @@ const projects = [
     {
         ID: "3",
         imgPath: require("../assets/imgs/proj3.png"),
-        title: "Quick Note IOS Application (Soon to be Released)",
+        title: "Quick Note IOS Application",
         description: "IOS application which allows users to take a quick note. By allowing the user to take a note in two steps " + 
                     "improves the user's experience.",
         techUsed: ["Swift, ", "Xcode, ", "Realm"],
-        hasLink: false,
-        linkToProj: "#",
-        demoPath: require("../assets/videos/quickNoteDemo.mp4"),
-        buttonContent: "Play Demo",
+        hasLink: true,
+        linkToProj: "https://apps.apple.com/us/app/quick-note-take-a-quick-note/id1540637535",
+        demoPath: "",
+        buttonContent: "See in AppStore",
         gitHubLink: "",
         buttonAdditionalInfo: " (Private)"
     },
