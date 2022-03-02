@@ -32,8 +32,9 @@ export default function Project(props) {
                         :
                         <Button style={{ marginRight: 10 }} onClick={handleShow}>{props.buttonContent}</Button>
                     }
-
-                <a href={props.gitHub} target="_blank"><Button variant="secondary">GitHub{props.buttonAdditionalInfo ? props.buttonAdditionalInfo : null}</Button></a>
+                {
+                    props.gitHub && <a href={props.gitHub} target="_blank"><Button variant="secondary">GitHub{props.buttonAdditionalInfo ? props.buttonAdditionalInfo : null}</Button></a>
+                }
                 </Card.Body>
             </Card>
 
